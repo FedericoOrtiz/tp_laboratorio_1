@@ -18,15 +18,15 @@ Mostrar los resultados
 int main()
 {
     int option;
-    int x;
-    int y;
+    float x;
+    float y;
     int flag1 = 0;
     int flag2 = 0;
     int flag3 = 0;
-    int addition;
-    int substraction;
+    float addition;
+    float substraction;
     float division;
-    int multiplication;
+    float multiplication;
     long long int fact1;
     long long int fact2;
 
@@ -39,11 +39,11 @@ int main()
         switch(option)
         {
             case 1:
-                x = getNumber("Ingrese un numero: ", "Error, ingrese un numero: ");
+                x = getNumber("Ingrese un numero: ", "Error, ingrese un dato valido: ");
                 flag1 = 1;
                 break;
             case 2:
-                y = getNumber("Ingrese un numero: ", "Error, ingrese un numero: ");
+                y = getNumber("Ingrese un numero: ", "Error, ingrese un dato valido: ");
                 flag2 = 1;
                 break;
             case 3:

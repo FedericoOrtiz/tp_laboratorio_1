@@ -43,24 +43,34 @@ int getOption(int min, int max, char message[], char messageError[])
  *
  */
 
- int getNumber(char message[], char messageError[])
+ float getNumber(char message[], char messageError[])
 {
     char string[] = {};
-    int num;
+    char zero;
+    float num;
 
     printf("%s", message);
     fflush(stdin);
     scanf("%s", string);
 
-    num = atoi(string);
+    num = atof(string);
 
     while(num == 0)
     {
+        printf("El numero que desea ingresar es 0? (s/n)");
+        fflush(stdin);
+        zero = getchar();
+        zero = tolower(zero);
+        if(zero == 's')
+        {
+            break;
+        }
+
         printf("%s", messageError);
         fflush(stdin);
         scanf("%s", string);
 
-        num = atoi(string);
+        num = atof(string);
     }
 
     return num;
@@ -76,11 +86,11 @@ int getOption(int min, int max, char message[], char messageError[])
  *
  */
 
-int showMenu(int x, int y, int flag1, int flag2)
+int showMenu(float x, float y, int flag1, int flag2)
 {
     if(flag1 == 1)
     {
-        printf("1. Ingrese 1er operando (A=%d)\n", x);
+        printf("1. Ingrese 1er operando (A=%.2f)\n", x);
     }
     else
     {
@@ -89,7 +99,7 @@ int showMenu(int x, int y, int flag1, int flag2)
 
     if(flag2 == 1)
     {
-        printf("2. Ingrese 2do operando (B=%d)\n", y);
+        printf("2. Ingrese 2do operando (B=%.2f)\n", y);
     }
     else
     {
@@ -116,7 +126,7 @@ int showMenu(int x, int y, int flag1, int flag2)
  *
  */
 
-int add(int x, int y)
+float add(float x, float y)
 {
     return x+y;
 }
@@ -128,7 +138,7 @@ int add(int x, int y)
  * \return El resultado de la operación
  *
  */
-int substract(int x, int y)
+float substract(float x, float y)
 {
     return x-y;
 }
@@ -140,7 +150,7 @@ int substract(int x, int y)
  * \return El resultado de la operación
  *
  */
-int multiplicate(int x, int y)
+float multiplicate(float x, float y)
 {
     return x*y;
 }
@@ -152,9 +162,9 @@ int multiplicate(int x, int y)
  * \return El resultado de la operación
  *
  */
-float divide(int x, int y)
+float divide(float x, float y)
 {
-    return (float)x/y;
+    return x/y;
 }
 
 /** \brief Calcula el factorial de un numero
@@ -163,12 +173,15 @@ float divide(int x, int y)
  * \return El resultado de la operación
  *
  */
-long long int factorial(int num)
+long long int factorial(float num)
 {
     long long int result = 1;
+    int numInt = (int)num;
+    float aux = num - numInt;
 
-    if(num>-1)
+    if(aux == 0 && num>-1)
     {
+
         for(int i=num; i>1; i--)
         {
             result = result * i;
@@ -195,22 +208,41 @@ long long int factorial(int num)
  *
  */
 
-void showResults(int x, int y, int addition, int substraction, int multiplication, float division, long long int fact1, long long int fact2)
+void showResults(float x, float y, float addition, float substraction, float multiplication, float division, long long int fact1, long long int fact2)
 {
-    printf("\nEl resultado de %d+%d = %d\n", x, y, addition);
-    printf("El resultado de %d-%d = %d\n", x, y, substraction);
+    printf("\nEl resultado de %.2f + %.2f = %.2f\n", x, y, addition);
+    printf("El resultado de %.2f - %.2f = %.2f\n", x, y, substraction);
 
     if(y!=0)
     {
-        printf("El resultado de %d/%d = %.2f\n", x, y, division);
+        printf("El resultado de %.2f / %.2f = %.2f\n", x, y, division);
     }
     else
     {
         printf("No es posible dividir por cero\n");
     }
 
-    printf("El resultado de %d*%d = %d\n", x, y, multiplication);
-    printf("El factorial de %d = %lld\n", x, fact1);
-    printf("El factorial de %d = %lld\n", y, fact2);
+    printf("El resultado de %.2f * %.2f = %.2f\n", x, y, multiplication);
+
+    if(fact1 != 0)
+    {
+        printf("El factorial de %d = %lld\n", (int)x, fact1);
+    }
+    else
+    {
+        printf("No es posible calcular el factorial de %.2f\n", x);
+    }
+
+
+    if(fact2 != 0)
+    {
+        printf("El factorial de %d = %lld\n", (int)y, fact2);
+    }
+    else
+    {
+        printf("No es posible calcular el factorial de %.2f\n", y);
+    }
+
+
 }
 

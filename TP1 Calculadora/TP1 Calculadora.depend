@@ -12,10 +12,16 @@
 	<stdlib.h>
 	"funciones.h"
 
-1599712692 source:c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\trabajos prácticos lab i\tp_laboratorio_1\tp1 calculadora\funciones.c
+1599922703 source:c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\trabajos prácticos lab i\tp_laboratorio_1\tp1 calculadora\funciones.c
 	<stdio.h>
 	<stdlib.h>
 	"funciones.h"
 
-1599709798 c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\trabajos prácticos lab i\tp_laboratorio_1\tp1 calculadora\funciones.h
+1599921131 c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\trabajos prácticos lab i\tp_laboratorio_1\tp1 calculadora\funciones.h
+
+1599922612 source:c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\trabajos prácticos lab i\tp_laboratorio_1\tp1 calculadora\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	"funciones.h"
 
