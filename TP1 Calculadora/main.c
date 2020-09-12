@@ -71,6 +71,9 @@ int main()
                 else
                 {
                     showResults(x, y, addition, substraction, multiplication, division, fact1, fact2);
+                    flag1 = 0;
+                    flag2 = 0;
+                    flag3 = 0;
                 }
                 break;
             case 5:
