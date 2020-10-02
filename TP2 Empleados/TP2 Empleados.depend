@@ -1,22 +1,22 @@
 # depslib dependency file v1.0
-1601571958 source:c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\trabajos prácticos lab i\tp_laboratorio_1\tp2 empleados\main.c
+1601605002 source:c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\trabajos prácticos lab i\tp_laboratorio_1\tp2 empleados\main.c
 	<stdio.h>
 	<stdlib.h>
 	"ArrayEmployees.h"
 	"Gets.h"
 
-1601577204 c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\trabajos prácticos lab i\tp_laboratorio_1\tp2 empleados\arrayemployees.h
+1601596256 c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\trabajos prácticos lab i\tp_laboratorio_1\tp2 empleados\arrayemployees.h
 
-1601518140 source:c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\trabajos prácticos lab i\tp_laboratorio_1\tp2 empleados\gets.c
+1601604082 source:c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\trabajos prácticos lab i\tp_laboratorio_1\tp2 empleados\gets.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	<ctype.h>
 	"Gets.h"
 
-1601517699 c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\trabajos prácticos lab i\tp_laboratorio_1\tp2 empleados\gets.h
+1601605619 c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\trabajos prácticos lab i\tp_laboratorio_1\tp2 empleados\gets.h
 
-1601578641 source:c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\trabajos prácticos lab i\tp_laboratorio_1\tp2 empleados\arrayemployees.c
+1601605353 source:c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\trabajos prácticos lab i\tp_laboratorio_1\tp2 empleados\arrayemployees.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>

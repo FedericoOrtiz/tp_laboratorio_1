@@ -16,7 +16,7 @@
 int main()
 {
     int option;
-    int order = -1;
+    int order;
     int nextId = 1000;
     int acumEmployees = 0;
     char exit = 'n';
@@ -37,11 +37,12 @@ int main()
 
     do
     {
+        printf("   ***** SISTEMA DE EMPLEADOS *****\n\n");
         printf("1. Dar de alta\n");
         printf("2. Modificar empleado\n");
         printf("3. Dar de baja\n");
         printf("4. Informar\n");
-        printf("5. Salir\n");
+        printf("5. Salir\n\n");
         option = getInt(1, 5, "Ingrese una opcion: ");
         system("cls");
 

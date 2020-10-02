@@ -26,12 +26,15 @@ int findSpace(Employee list[], int length)
 {
     int index = -1;
 
-    for(int i=0; i<length; i++)
+    if(list != NULL && length>0)
     {
-        if(list[i].isEmpty == 1)
+        for(int i=0; i<length; i++)
         {
-            index = i;
-            break;
+            if(list[i].isEmpty == 1)
+            {
+                index = i;
+                break;
+            }
         }
     }
 
@@ -91,7 +94,7 @@ int findEmployeeById(Employee list[], int length, int id)
     {
         for(int i=0; i<length; i++)
         {
-            if(id == list[i].id)
+            if(id == list[i].id && list[i].isEmpty == 0)
             {
                 printf("\n  ID        Apellido           Nombre      Salario     Sector\n");
                 printEmployee(list[i]);
@@ -110,7 +113,7 @@ void modifyEmployee(Employee list[], int length, int id)
 
     int index = findEmployeeById(list, length, id);
 
-    if(index != -1)
+    if(list != NULL && length>0 &&  index != -1)
     {
         Employee auxEmployee = list[index];
 
@@ -240,7 +243,7 @@ int printEmployees(Employee list[], int length)
     int acumEmployees = 0;
     int acumEmpSalary = 0;
     float acumSalary = 0;
-    printf("               ***** LISTADO DE EMPLEADOS *****\n");
+    printf("               ***** LISTADO DE EMPLEADOS *****\n\n");
     printf("  ID        Apellido           Nombre      Salario     Sector\n");
 
     for(int i=0; i<length; i++)
@@ -254,7 +257,7 @@ int printEmployees(Employee list[], int length)
         }
     }
 
-    float averageWages = acumSalary/acumEmployees;
+    float averageWages = (float)acumSalary/acumEmployees;
 
     for(int i=0; i<length; i++)
     {

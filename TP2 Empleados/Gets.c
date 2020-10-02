@@ -55,7 +55,7 @@ int validateString(char string[])
 int getInt(int min, int max, char message[])
 {
     int num;
-    char string[] = {};
+    char string[11];
 
     do
     {

@@ -11,6 +11,7 @@ typedef struct
     int isEmpty;
 }Employee;
 
+#endif // ARRAYEMPLOYEES_H_INCLUDED
 
 /** \brief to indicate that all position in the array are empty, this function put the flag (isEmpty) in TRUE in all position of the array
 * \param list array of employees
@@ -104,7 +105,5 @@ void printEmployee(Employee anEmployee);
 *
 */
 int printEmployees(Employee list[], int length);
-
-#endif // ARRAYEMPLOYEES_H_INCLUDED
 
 
