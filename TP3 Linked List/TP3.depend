@@ -1,0 +1,298 @@
+# depslib dependency file v1.0
+1533062952 source:/home/mauro/Descargas/Practica_Pair_v1.2/Linux_64/Employee.c
+
+1533063050 source:/home/mauro/Descargas/Practica_Pair_v1.2/Linux_64/main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+
+1532354323 /home/mauro/Descargas/Practica_Pair_v1.2/Linux_64/LinkedList.h
+
+1533062926 /home/mauro/Descargas/Practica_Pair_v1.2/Linux_64/Employee.h
+
+1533063080 source:/home/mauro/Descargas/Practica_Pair_v1.2/Linux_64/parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+
+1533062952 source:/home/mauro/Descargas/TP3/Linux_64/Employee.c
+
+1533066103 source:/home/mauro/Descargas/TP3/Linux_64/main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+
+1532354323 /home/mauro/Descargas/TP3/Linux_64/LinkedList.h
+
+1533066103 /home/mauro/Descargas/TP3/Linux_64/Employee.h
+
+1533063080 source:/home/mauro/Descargas/TP3/Linux_64/parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+
+1533145792 source:/home/mauro/Descargas/TP3-20180801T173619Z-001/TP3/Linux_64/Controller.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+
+1533118898 /home/mauro/Descargas/TP3-20180801T173619Z-001/TP3/Linux_64/LinkedList.h
+
+1533118898 /home/mauro/Descargas/TP3-20180801T173619Z-001/TP3/Linux_64/Employee.h
+
+1533118898 source:/home/mauro/Descargas/TP3-20180801T173619Z-001/TP3/Linux_64/Employee.c
+
+1533145890 source:/home/mauro/Descargas/TP3-20180801T173619Z-001/TP3/Linux_64/parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+
+1541216644 source:c:\users\chris\desktop\tp3\win_64\controller.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+	"parser.h"
+	"ctype.h"
+
+1533133022 c:\users\chris\desktop\tp3\win_64\linkedlist.h
+
+1541184324 c:\users\chris\desktop\tp3\win_64\employee.h
+	<stdlib.h>
+
+1541184341 source:c:\users\chris\desktop\tp3\win_64\employee.c
+	<stdio.h>
+	"Employee.h"
+	<string.h>
+
+1541216714 source:c:\users\chris\desktop\tp3\win_64\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Employee.h"
+
+1533133022 c:\users\chris\desktop\tp3\win_64\controller.h
+
+1541182920 source:c:\users\chris\desktop\tp3\win_64\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+
+1533133022 c:\users\chris\desktop\tp3\win_64\parser.h
+
+1541108276 source:c:\users\chris_000\desktop\tp3\win_64\employee.c
+	<stdio.h>
+	"Employee.h"
+	<string.h>
+
+1541108226 c:\users\chris_000\desktop\tp3\win_64\employee.h
+	<stdlib.h>
+
+1541108692 source:c:\users\chris_000\desktop\tp3\win_64\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Employee.h"
+
+1533133022 c:\users\chris_000\desktop\tp3\win_64\linkedlist.h
+
+1533133022 c:\users\chris_000\desktop\tp3\win_64\controller.h
+
+1541107071 source:c:\users\chris_000\desktop\tp3\win_64\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+
+1541108615 source:c:\users\chris_000\desktop\tp3\win_64\controller.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+	"parser.h"
+
+1533133022 c:\users\chris_000\desktop\tp3\win_64\parser.h
+
+1591615323 source:c:\users\chris_000\desktop\tp3terminado (1)\tp3terminado\win_64\controller.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+
+1533133022 c:\users\chris_000\desktop\tp3terminado (1)\tp3terminado\win_64\linkedlist.h
+
+1591615272 c:\users\chris_000\desktop\tp3terminado (1)\tp3terminado\win_64\employee.h
+
+1533133022 c:\users\chris_000\desktop\tp3terminado (1)\tp3terminado\win_64\parser.h
+
+1591615369 source:c:\users\chris_000\desktop\tp3terminado (1)\tp3terminado\win_64\employee.c
+
+1591615261 source:c:\users\chris_000\desktop\tp3terminado (1)\tp3terminado\win_64\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Employee.h"
+
+1533133022 c:\users\chris_000\desktop\tp3terminado (1)\tp3terminado\win_64\controller.h
+
+1591615429 source:c:\users\chris_000\desktop\tp3terminado (1)\tp3terminado\win_64\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+
+1604716033 source:c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\tp3_cascara\win_64\controller.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"parser.h"
+	"Employee.h"
+	"Gets.h"
+
+1604652587 c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\tp3_cascara\win_64\linkedlist.h
+
+1604713915 c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\tp3_cascara\win_64\employee.h
+	"LinkedList.h"
+
+1604718001 source:c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\tp3_cascara\win_64\employee.c
+	"Employee.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Gets.h"
+
+1604716677 source:c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\tp3_cascara\win_64\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Employee.h"
+	"Gets.h"
+
+1604716028 c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\tp3_cascara\win_64\controller.h
+
+1604718136 source:c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\tp3_cascara\win_64\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+
+1601605658 source:c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\tp3_cascara\win_64\gets.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"Gets.h"
+
+1601605619 c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\tp3_cascara\win_64\gets.h
+
+1533133022 c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\tp3_cascara\win_64\parser.h
+
+1604888359 source:c:\users\feder\desktop\tp3_cascara\win_64\employee.c
+	"Employee.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Gets.h"
+
+1604713915 c:\users\feder\desktop\tp3_cascara\win_64\employee.h
+	"LinkedList.h"
+
+1604652587 c:\users\feder\desktop\tp3_cascara\win_64\linkedlist.h
+
+1601605619 c:\users\feder\desktop\tp3_cascara\win_64\gets.h
+
+1601605658 source:c:\users\feder\desktop\tp3_cascara\win_64\gets.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"Gets.h"
+
+1604888386 source:c:\users\feder\desktop\tp3_cascara\win_64\controller.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Controller.h"
+	"parser.h"
+	"Employee.h"
+	"Gets.h"
+	<string.h>
+
+1533133022 c:\users\feder\desktop\tp3_cascara\win_64\parser.h
+
+1604885122 source:c:\users\feder\desktop\tp3_cascara\win_64\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+
+1604888495 source:c:\users\feder\desktop\tp3_cascara\win_64\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Employee.h"
+	"Gets.h"
+
+1604887059 c:\users\feder\desktop\tp3_cascara\win_64\controller.h
+
+1604888386 source:c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\trabajos prácticos lab i\tp_laboratorio_1\tp3 linked list\controller.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Controller.h"
+	"parser.h"
+	"Employee.h"
+	"Gets.h"
+	<string.h>
+
+1604652587 c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\trabajos prácticos lab i\tp_laboratorio_1\tp3 linked list\linkedlist.h
+
+1604887059 c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\trabajos prácticos lab i\tp_laboratorio_1\tp3 linked list\controller.h
+
+1533133022 c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\trabajos prácticos lab i\tp_laboratorio_1\tp3 linked list\parser.h
+
+1604713915 c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\trabajos prácticos lab i\tp_laboratorio_1\tp3 linked list\employee.h
+	"LinkedList.h"
+
+1601605619 c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\trabajos prácticos lab i\tp_laboratorio_1\tp3 linked list\gets.h
+
+1604888359 source:c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\trabajos prácticos lab i\tp_laboratorio_1\tp3 linked list\employee.c
+	"Employee.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Gets.h"
+
+1601605658 source:c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\trabajos prácticos lab i\tp_laboratorio_1\tp3 linked list\gets.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"Gets.h"
+
+1604888495 source:c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\trabajos prácticos lab i\tp_laboratorio_1\tp3 linked list\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Employee.h"
+	"Gets.h"
+
+1604885122 source:c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\trabajos prácticos lab i\tp_laboratorio_1\tp3 linked list\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+
