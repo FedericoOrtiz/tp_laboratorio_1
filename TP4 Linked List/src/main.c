@@ -22,10 +22,15 @@
 #include <string.h>
 #include "../testing/inc/main_test.h"
 #include "../inc/LinkedList.h"
+#include "Controller.h"
+#include "Employee.h"
+#include "Gets.h"
+
 
 
 int main(void)
 {
+    printf("                  ***** TESTEO DE FUNCIONES *****\n\n");
     startTesting(1);  // ll_newLinkedList
     startTesting(2);  // ll_len
     startTesting(3);  // getNode - test_getNode
@@ -44,7 +49,82 @@ int main(void)
     startTesting(16); // ll_containsAll
     startTesting(17); // ll_subList
     startTesting(18); // ll_clone
-    startTesting(19); // ll_sort */
+    startTesting(19); // ll_sort
+
+    system("pause");
+    system("cls");
+
+    char exit = 'n';
+    int loadFromText = 0;
+
+    LinkedList* listEmployees = ll_newLinkedList();
+
+    do
+    {
+        switch(controller_showMenu())
+        {
+            case 1:
+                if(!loadFromText)
+                {
+                    if(controller_loadFromText("data.csv", listEmployees))
+                    {
+                        printf("Empleados cargados con exito\n\n");
+                        loadFromText = 1;
+                    }
+                    else
+                    {
+                        printf("Error al cargar el archivo\n\n");
+                    }
+                }
+                else
+                {
+                    printf("Los empleados ya han sido cargados al sistema\n\n");
+                }
+                break;
+            case 2:
+                controller_addEmployee(listEmployees);
+                break;
+            case 3:
+                controller_editEmployee(listEmployees);
+                break;
+            case 4:
+                controller_removeEmployee(listEmployees);
+                break;
+            case 5:
+                if(!loadFromText)
+                {
+                    printf("Primero debe cargar el archivo a sistema\n\n");
+                }
+                else if(!controller_ListEmployees(listEmployees))
+                {
+                    printf("No hay empleados en sistema\n\n");
+                }
+                break;
+            case 6:
+                controller_sortEmployee(listEmployees);
+                break;
+            case 7:
+                if(controller_saveAsText("data.csv", listEmployees))
+                {
+                    printf("Datos guardados\n\n");
+                }
+                else
+                {
+                    printf("No se han podido guardar los datos\n\n");
+                }
+                break;
+            case 8:
+                exit = getChar("Confirma salida? (s/n) ");
+                break;
+        }
+
+        printf("\n");
+        system("pause");
+        system("cls");
+
+    }while(exit != 's');
+
+    ll_deleteLinkedList(listEmployees);
 
     return 0;
 }

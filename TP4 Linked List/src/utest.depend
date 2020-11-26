@@ -4854,3 +4854,294 @@
 	<string.h>
 	"../inc/LinkedList.h"
 
+1560475730 source:c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\trabajos prácticos lab i\tp_laboratorio_1\tp4 linked list\testing\src\addnodetest.c
+	"../../testing/utest.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../inc/LinkedList.h"
+	"../../testing/inc/Employee.h"
+
+1560475730 c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\trabajos prácticos lab i\tp_laboratorio_1\tp4 linked list\testing\utest.h
+
+1605705998 c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\trabajos prácticos lab i\tp_laboratorio_1\tp4 linked list\inc\linkedlist.h
+
+1560475730 c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\trabajos prácticos lab i\tp_laboratorio_1\tp4 linked list\testing\inc\employee.h
+
+1560475730 source:c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\trabajos prácticos lab i\tp_laboratorio_1\tp4 linked list\testing\src\addtest.c
+	"../../testing/utest.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../inc/LinkedList.h"
+	"../../testing/inc/Employee.h"
+
+1560475730 source:c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\trabajos prácticos lab i\tp_laboratorio_1\tp4 linked list\testing\src\cleartest.c
+	"../../testing/utest.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../inc/LinkedList.h"
+	"../../testing/inc/Employee.h"
+
+1560475730 source:c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\trabajos prácticos lab i\tp_laboratorio_1\tp4 linked list\testing\src\clonetest.c
+	"../../testing/utest.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../inc/LinkedList.h"
+	"../../testing/inc/Employee.h"
+
+1560475730 source:c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\trabajos prácticos lab i\tp_laboratorio_1\tp4 linked list\testing\src\containsalltest.c
+	"../../testing/utest.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../inc/LinkedList.h"
+	"../../testing/inc/Employee.h"
+
+1560475730 source:c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\trabajos prácticos lab i\tp_laboratorio_1\tp4 linked list\testing\src\containstest.c
+	"../../testing/utest.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../inc/LinkedList.h"
+	"../../testing/inc/Employee.h"
+
+1560475730 source:c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\trabajos prácticos lab i\tp_laboratorio_1\tp4 linked list\testing\src\deletelinkedlisttest.c
+	"../../testing/utest.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../inc/LinkedList.h"
+	"../../testing/inc/Employee.h"
+
+1560475730 source:c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\trabajos prácticos lab i\tp_laboratorio_1\tp4 linked list\testing\src\employee.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../inc/Employee.h"
+
+1560475730 source:c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\trabajos prácticos lab i\tp_laboratorio_1\tp4 linked list\testing\src\getnodetest.c
+	"../../testing/utest.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../inc/LinkedList.h"
+	"../../testing/inc/Employee.h"
+
+1560475730 source:c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\trabajos prácticos lab i\tp_laboratorio_1\tp4 linked list\testing\src\gettest.c
+	"../../testing/utest.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../inc/LinkedList.h"
+	"../../testing/inc/Employee.h"
+
+1560475730 source:c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\trabajos prácticos lab i\tp_laboratorio_1\tp4 linked list\testing\src\indexoftest.c
+	"../../testing/utest.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../inc/LinkedList.h"
+	"../../testing/inc/Employee.h"
+
+1560475730 source:c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\trabajos prácticos lab i\tp_laboratorio_1\tp4 linked list\testing\src\isemptytest.c
+	"../../testing/utest.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../inc/LinkedList.h"
+	"../../testing/inc/Employee.h"
+
+1560475730 source:c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\trabajos prácticos lab i\tp_laboratorio_1\tp4 linked list\testing\src\lentest.c
+	"../../testing/utest.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../inc/LinkedList.h"
+	"../../testing/inc/Employee.h"
+
+1560541120 source:c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\trabajos prácticos lab i\tp_laboratorio_1\tp4 linked list\testing\src\main_test.c
+	"../../testing/utest.h"
+	<stdio.h>
+	<stdlib.h>
+	"../inc/newTest.h"
+	"../inc/addTest.h"
+	"../inc/getNodeTest.h"
+	"../inc/addNodeTest.h"
+	"../inc/deleteLinkedListTest.h"
+	"../inc/lenTest.h"
+	"../inc/getTest.h"
+	"../inc/containsTest.h"
+	"../inc/setTest.h"
+	"../inc/removeTest.h"
+	"../inc/clearTest.h"
+	"../inc/cloneTest.h"
+	"../inc/pushTest.h"
+	"../inc/indexOfTest.h"
+	"../inc/isEmptyTest.h"
+	"../inc/popTest.h"
+	"../inc/subListTest.h"
+	"../inc/containsAllTest.h"
+	"../inc/sortTest.h"
+
+1560475730 c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\trabajos prácticos lab i\tp_laboratorio_1\tp4 linked list\testing\inc\newtest.h
+
+1560475730 c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\trabajos prácticos lab i\tp_laboratorio_1\tp4 linked list\testing\inc\addtest.h
+
+1560475730 c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\trabajos prácticos lab i\tp_laboratorio_1\tp4 linked list\testing\inc\getnodetest.h
+
+1560475730 c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\trabajos prácticos lab i\tp_laboratorio_1\tp4 linked list\testing\inc\addnodetest.h
+
+1560475730 c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\trabajos prácticos lab i\tp_laboratorio_1\tp4 linked list\testing\inc\deletelinkedlisttest.h
+
+1560475730 c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\trabajos prácticos lab i\tp_laboratorio_1\tp4 linked list\testing\inc\lentest.h
+
+1560475730 c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\trabajos prácticos lab i\tp_laboratorio_1\tp4 linked list\testing\inc\gettest.h
+
+1560475730 c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\trabajos prácticos lab i\tp_laboratorio_1\tp4 linked list\testing\inc\containstest.h
+
+1560475730 c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\trabajos prácticos lab i\tp_laboratorio_1\tp4 linked list\testing\inc\settest.h
+
+1560541120 c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\trabajos prácticos lab i\tp_laboratorio_1\tp4 linked list\testing\inc\removetest.h
+
+1560475730 c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\trabajos prácticos lab i\tp_laboratorio_1\tp4 linked list\testing\inc\cleartest.h
+
+1560475730 c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\trabajos prácticos lab i\tp_laboratorio_1\tp4 linked list\testing\inc\clonetest.h
+
+1560475730 c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\trabajos prácticos lab i\tp_laboratorio_1\tp4 linked list\testing\inc\pushtest.h
+
+1560475730 c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\trabajos prácticos lab i\tp_laboratorio_1\tp4 linked list\testing\inc\indexoftest.h
+
+1560475730 c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\trabajos prácticos lab i\tp_laboratorio_1\tp4 linked list\testing\inc\isemptytest.h
+
+1560475730 c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\trabajos prácticos lab i\tp_laboratorio_1\tp4 linked list\testing\inc\poptest.h
+
+1560475730 c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\trabajos prácticos lab i\tp_laboratorio_1\tp4 linked list\testing\inc\sublisttest.h
+
+1560475730 c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\trabajos prácticos lab i\tp_laboratorio_1\tp4 linked list\testing\inc\containsalltest.h
+
+1560475730 c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\trabajos prácticos lab i\tp_laboratorio_1\tp4 linked list\testing\inc\sorttest.h
+
+1560475730 source:c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\trabajos prácticos lab i\tp_laboratorio_1\tp4 linked list\testing\src\newtest.c
+	"../../testing/utest.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../inc/LinkedList.h"
+
+1560475730 source:c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\trabajos prácticos lab i\tp_laboratorio_1\tp4 linked list\testing\src\poptest.c
+	"../../testing/utest.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../inc/LinkedList.h"
+	"../../testing/inc/Employee.h"
+
+1560475730 source:c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\trabajos prácticos lab i\tp_laboratorio_1\tp4 linked list\testing\src\pushtest.c
+	"../../testing/utest.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../inc/LinkedList.h"
+	"../../testing/inc/Employee.h"
+
+1560541169 source:c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\trabajos prácticos lab i\tp_laboratorio_1\tp4 linked list\testing\src\removetest.c
+	"../../testing/utest.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../inc/LinkedList.h"
+	"../../testing/inc/Employee.h"
+
+1560475730 source:c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\trabajos prácticos lab i\tp_laboratorio_1\tp4 linked list\testing\src\settest.c
+	"../../testing/utest.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../inc/LinkedList.h"
+	"../../testing/inc/Employee.h"
+
+1560475730 source:c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\trabajos prácticos lab i\tp_laboratorio_1\tp4 linked list\testing\src\sorttest.c
+	"../../testing/utest.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../inc/LinkedList.h"
+	"../../testing/inc/Employee.h"
+
+1560475730 source:c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\trabajos prácticos lab i\tp_laboratorio_1\tp4 linked list\testing\src\sublisttest.c
+	"../../testing/utest.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../../inc/LinkedList.h"
+	"../../testing/inc/Employee.h"
+
+1560475730 source:c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\trabajos prácticos lab i\tp_laboratorio_1\tp4 linked list\testing\utest.c
+	"utest.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1601605658 source:c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\trabajos prácticos lab i\tp_laboratorio_1\tp4 linked list\src\gets.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"Gets.h"
+
+1601605619 c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\trabajos prácticos lab i\tp_laboratorio_1\tp4 linked list\src\gets.h
+
+1606278656 source:c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\trabajos prácticos lab i\tp_laboratorio_1\tp4 linked list\src\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../inc/LinkedList.h"
+
+1606433756 source:c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\trabajos prácticos lab i\tp_laboratorio_1\tp4 linked list\src\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../testing/inc/main_test.h"
+	"../inc/LinkedList.h"
+	"Controller.h"
+	"Employee.h"
+	"Gets.h"
+
+1560475730 c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\trabajos prácticos lab i\tp_laboratorio_1\tp4 linked list\testing\inc\main_test.h
+
+1606431720 c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\trabajos prácticos lab i\tp_laboratorio_1\tp4 linked list\src\controller.h
+
+1606432350 source:c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\trabajos prácticos lab i\tp_laboratorio_1\tp4 linked list\src\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"../inc/LinkedList.h"
+	"Employee.h"
+
+1606434040 source:c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\trabajos prácticos lab i\tp_laboratorio_1\tp4 linked list\src\employee.c
+	"Employee.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Gets.h"
+
+1606432267 c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\trabajos prácticos lab i\tp_laboratorio_1\tp4 linked list\src\employee.h
+	"../inc/LinkedList.h"
+
+1606433560 source:c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\trabajos prácticos lab i\tp_laboratorio_1\tp4 linked list\src\controller.c
+	<stdio.h>
+	<stdlib.h>
+	"Parser.h"
+	<stdio.h>
+	"Employee.h"
+	"Controller.h"
+	"Gets.h"
+	<string.h>
+	"../inc/LinkedList.h"
+
+1606433366 c:\users\feder\desktop\2do cuatrimestre 2020\programación-laboratorio i\trabajos prácticos lab i\tp_laboratorio_1\tp4 linked list\src\parser.h
+	<stdio.h>
+	"../inc/LinkedList.h"
+
